@@ -57,6 +57,14 @@ class _CommentPageState extends State<CommentPage> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
+                            Text("userId: ",
+                                style:
+                                TextStyle(fontWeight: FontWeight.bold)),
+                            Text(z.str_postId),
+                            Text("id: ",
+                                style:
+                                TextStyle(fontWeight: FontWeight.bold)),
+                            Text(z.str_id),
                             Text("Title: ",
                                 style: TextStyle(fontWeight: FontWeight.bold)),
                             Text(z.name),

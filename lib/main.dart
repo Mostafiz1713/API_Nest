@@ -95,8 +95,14 @@ class _AfterSplashState extends State<AfterSplash> {
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: <Widget>[
-                              //Text(x.userId),
-//                          Text(x.id),
+                              Text("userId: ",
+                                  style:
+                                  TextStyle(fontWeight: FontWeight.bold)),
+                              Text(x.str_userId),
+                              Text("id: ",
+                                  style:
+                                  TextStyle(fontWeight: FontWeight.bold)),
+                              Text(x.str_id),
                               Text("Title: ",
                                   style:
                                       TextStyle(fontWeight: FontWeight.bold)),

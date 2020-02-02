@@ -56,7 +56,21 @@ class _PageDetailsState extends State<PageDetails> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
+                      Text("userId: ",
+                          style:
+                          TextStyle(fontWeight: FontWeight.bold)),
+                      Text(y.str_userId),
+                      Text("id: ",
+                          style:
+                          TextStyle(fontWeight: FontWeight.bold)),
+                      Text(y.str_id),
+                      Text("Title: ",
+                          style:
+                          TextStyle(fontWeight: FontWeight.bold)),
                       Text(y.title),
+                      Text("Body: ",
+                          style:
+                          TextStyle(fontWeight: FontWeight.bold)),
                       Text(y.body),
                     ],
                   ),
